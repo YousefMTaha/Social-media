@@ -1,38 +1,68 @@
-<h1 align="center">Welcome to Social-Media 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://documenter.getpostman.com/view/25674968/2s9YJbzN4j" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="#" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" />
-  </a>
-</p>
 
-> This project is a simple REST API for a social media application built with Node.js and Express.
+# Social-Media RESTful API
 
-## Install
+This project is a simple REST API for a social media application built with Node.js and Express. 
 
-```sh
-npm install
+
+## Features
+- CRUD operations for user
+- CRUD operations for posts
+- Authentication
+- Validation (using Joi)
+- Liking and unliking posts
+- Soft delete for posts
+- Send email (confirm email) (send everday a reminder email to all users didn’t confirm their emails)
+- File upload (images and videos on cloudinary host)
+- Error Handling
+- password hashing
+- Phone encryption
+
+
+
+## Endpoints
+
+[Endpoints Documentation](https://documenter.getpostman.com/view/25674968/2s9YJbzN4j) (Postman)
+
+
+## Run Locally
+
+To run this project locally, you will need to add environment variables to your .env file which is unpublished for security reasons, you can contact me if you want run locally for .env file
+
+Clone the project
+
+```bash
+  git clone https://github.com/YousefMTaha/Social-media.git
 ```
 
-## Usage
+Go to the project directory
 
-```sh
-npm start
+```bash
+  cd Social-media
 ```
 
-## Author
+Install dependencies
 
-👤 **Yousef Taha**
+```bash
+  npm install
+```
 
-* Github: [@yousefmtaha](https://github.com/yousefmtaha)
-* LinkedIn: [@yousef-taha-bb5205228](https://linkedin.com/in/yousef-taha-bb5205228)
+Start the server
 
-## Show your support
+```bash
+  npm run start
+```
 
-Give a ⭐️ if this project helped you!
 
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+## Versions
+
+<img alt="Static Badge" src="https://img.shields.io/badge/bcryptjs-2.4.3-blue"> <img alt="Static Badge" src="https://img.shields.io/badge/crypto--js-4.1.1-yellow">
+<img alt="Static Badge" src="https://img.shields.io/badge/dotenv-16.3.1-yellow"> <img alt="Static Badge" src="https://img.shields.io/badge/express-4.18.2-red">
+<img alt="Static Badge" src="https://img.shields.io/badge/http--status--codes-2.2.0-yellow"> <img alt="Static Badge" src="https://img.shields.io/badge/joi-17.10.1-blue">
+<img alt="Static Badge" src="https://img.shields.io/badge/mongoose-7.3.1-red">
+
+
+
+## Feedback
+
+If you have any feedback or you want .env file, please reach out to me at yousefmahmoudmahmed@outlook.com
+
