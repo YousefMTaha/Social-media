@@ -1,32 +1,30 @@
 
 # Social-Media RESTful API
 
-This project is a simple REST API for a social media application built with Node.js and Express. 
-
+This project is a simple REST API for a social media application built with Node.js and Express which containing 4 modules (users, posts, comments and reply comments) each modules has several endpoint (there is a link for all endpoints documentaion below)
 
 ## Features
-- CRUD operations for user
-- CRUD operations for posts
-- Authentication
+- CRUD operations for users 
+- CRUD operations for posts 
+- CRUD operations for comments
+- CRUD operations for reply commnets 
 - Validation (using Joi)
+- Authentication (using JWT)
+- Send email (confirm email, forget password) (send everday a reminder email to all users didn’t confirm their emails)
 - Liking and unliking posts
 - Soft delete for posts
-- Send email (confirm email) (send everday a reminder email to all users didn’t confirm their emails)
 - File upload (images and videos on cloudinary host)
 - Error Handling
 - password hashing
 - Phone encryption
 
-
-
 ## Endpoints
 
 [Endpoints Documentation](https://documenter.getpostman.com/view/25674968/2s9YJbzN4j) (Postman)
 
-
 ## Run Locally
 
-To run this project locally, you will need to add environment variables to your .env file which is unpublished for security reasons, you can contact me if you want run locally for .env file
+you don't have to run it locally as I deployed it on the Render server (link in the description of the project) but if you want To run this project locally, you will need to add environment variables to your .env file which is unpublished for security reasons but you can contact me if you want to run it locally for .env file after that follow these steps
 
 Clone the project
 
