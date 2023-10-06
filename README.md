@@ -54,6 +54,9 @@ Start the server
 ## Versions
 
 <img alt="Static Badge" src="https://img.shields.io/badge/bcryptjs-2.4.3-blue"> <img alt="Static Badge" src="https://img.shields.io/badge/crypto--js-4.1.1-yellow">
+<img alt="Static Badge" src="https://img.shields.io/badge/cloudinary-1.41.0-yellow"> <img alt="Static Badge" src="https://img.shields.io/badge/jsonwebtoken-9.0.2-blue">
+<img alt="Static Badge" src="https://img.shields.io/badge/nodemailer-6.9.5-blue"> <img alt="Static Badge" src="https://img.shields.io/badge/node--cron-3.0.2-yellow">
+<img alt="Static Badge" src="https://img.shields.io/badge/multer-1.4.5--lts.1-yellow"> <img alt="Static Badge" src="https://img.shields.io/badge/nanoid-5.0.1-yellow">
 <img alt="Static Badge" src="https://img.shields.io/badge/dotenv-16.3.1-yellow"> <img alt="Static Badge" src="https://img.shields.io/badge/express-4.18.2-red">
 <img alt="Static Badge" src="https://img.shields.io/badge/http--status--codes-2.2.0-yellow"> <img alt="Static Badge" src="https://img.shields.io/badge/joi-17.10.1-blue">
 <img alt="Static Badge" src="https://img.shields.io/badge/mongoose-7.3.1-red">
