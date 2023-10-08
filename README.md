@@ -15,7 +15,7 @@ This project is a simple REST API for a social media application built with Node
 - Soft delete for posts
 - File upload (images and videos on cloudinary host)
 - Error Handling
-- password hashing
+- Password hashing
 - Phone encryption
 
 ## Endpoints
