@@ -366,7 +366,7 @@ export const refreshToken = async (req, res, next) => {
 
     // generate a new access token
     const accessToken = jwt.sign({ id, email },process.env.TOKEN_SIGNATURE, {
-      expiresIn: "120s",
+      expiresIn: "500s",
     });
 
     // return the new access token to the user
