@@ -2,6 +2,7 @@ import { StatusCodes } from "http-status-codes";
 import commentModel from "../../../../DB/models/Comment.model.js";
 import postModel from "../../../../DB/models/Post.model.js";
 import ErrorClass from "../../../utils/errorClass.js";
+import commentReplayModel from "../../../../DB/models/CommentReplay.model.js";
 
 export const add = async (req, res, next) => {
   const { commentBody } = req.body;
@@ -75,6 +76,9 @@ export const remove = async (req, res, next) => {
 
   // remove comment from DB
   await commentModel.deleteOne({ _id: id });
+
+  // remove alternate comments
+  await commentReplayModel.deleteMany({ commentId: id });
 
   // remove commentId from post DB
   await postModel.updateOne(
