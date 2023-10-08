@@ -3,7 +3,7 @@ services:
     type: web
     buildCommand: npm install 
     startCommand: npm start
-    env:
+    envVars:
       PORT: 4000
       DB_LOCAL: mongodb://127.0.0.1:27017/socialMedia
       DB_ATLAS: mongodb+srv://tyousef262:pFRnRyJt4BhXXsRA@cluster0.cwz5mhe.mongodb.net/social-media
