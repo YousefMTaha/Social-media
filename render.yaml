@@ -4,16 +4,7 @@ services:
     buildCommand: npm install 
     startCommand: npm start
     envVars:
-      PORT: 4000
-      DB_LOCAL: mongodb://127.0.0.1:27017/socialMedia
-      DB_ATLAS: mongodb+srv://tyousef262:pFRnRyJt4BhXXsRA@cluster0.cwz5mhe.mongodb.net/social-media
-      SALT_ROUND: 9
-      CRYPTO_SIGNATURE: NOTHING
-      TOKEN_SIGNATURE: NOTHING+
-      REFRESH_TOKEN_SIGNATURE: NOTHING++
-      BEARER_KEY: yousef__
-      GMAIL: tyousef262@gmail.com
-      GMAIL_PASSWORD: uksw osvc eeyq tnjm
-      CLOUD_NAME: ducoqbn7x
-      API_KEY: 318884386692974
-      API_SECRET: FO3iRWv8RWzwabFZ95mdRWBtETA
+      key: PORT
+      value: 4000
+      
+      
