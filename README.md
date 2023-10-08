@@ -12,6 +12,7 @@ This project is a simple REST API for a social media application built with Node
 - Authentication (using JWT)
 - Refresh token
 - Send email (confirm email, forget password) (send everyday a reminder email to all users didn’t confirm their emails)
+- Pagination
 - Liking and unliking posts
 - Soft delete for posts
 - File upload (images and videos on cloudinary host)
