@@ -4,7 +4,7 @@ import { generalFields } from "../../middleware/validation.js";
 export const add = {
   body: Joi.object({
     content: Joi.string().required(),
-    privacy: Joi.string().valid("privacy", "only me"),
+    privacy: Joi.string().valid("public", "only me"),
   }).required(),
   params: Joi.object({}).required(),
   query: Joi.object({}).required(),
