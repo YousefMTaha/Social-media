@@ -108,7 +108,7 @@ export const login = async (req, res, next) => {
 
   // generate token to user
   const token = jwt.sign(payload, process.env.TOKEN_SIGNATURE, {
-    expiresIn: "120s",
+    expiresIn: "500s",
   });
 
   // generate refresh token to user
