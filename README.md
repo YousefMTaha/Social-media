@@ -25,7 +25,7 @@ This project is a simple REST API for a social media application built with Node
 
 ## Run Locally
 
-You don't have to run it locally as I deployed it on the Render server (link in the description of the project) but if you want To run this project locally, you will need to add environment variables to your .env file which is unpublished for security reasons but you can contact me for .env file after that follow these steps
+You don't have to run it locally as I deployed it on the vercel server (link in the description of the project) but if you want To run this project locally, you will need to add environment variables to your .env file which is unpublished for security reasons but you can contact me for .env file after that follow these steps
 
 Clone the project
 
