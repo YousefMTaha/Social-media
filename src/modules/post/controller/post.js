@@ -15,7 +15,7 @@ import {
 
 export const add = async (req, res, next) => {
   const { content, privacy } = req.body;
-  const pathId = nanoid();
+  const pathId = nanoid(10);
 
   // check if user send video
   if (req.files.video?.length) {
