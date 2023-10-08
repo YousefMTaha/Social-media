@@ -7,7 +7,7 @@ This project is a simple REST API for a social media application built with Node
 - CRUD operations for users 
 - CRUD operations for posts 
 - CRUD operations for comments
-- CRUD operations for reply commnets 
+- CRUD operations for reply comments 
 - Validation (using Joi)
 - Authentication (using JWT)
 - Refresh token
