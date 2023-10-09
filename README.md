@@ -1,7 +1,7 @@
 
 # Social-Media RESTful API
 
-This project is a simple REST API for a social media application built with Node.js and Express which contains 4 modules (users, posts, comments and reply comments) each module has several endpoints (there is a link for all endpoints documentation below)
+This project is a simple REST API for a social media application built with Node.js, Express, and MongoDB which contains 4 modules (users, posts, comments and reply comments) each module has several endpoints (there is a link for all endpoints documentation below)
 
 ## Features
 - CRUD operations for users 
