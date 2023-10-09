@@ -19,6 +19,7 @@ This project is a simple REST API for a social media application built with Node
 - Error Handling
 - Password hashing
 - Phone encryption
+- Status codes
 
 ## Endpoints
 
